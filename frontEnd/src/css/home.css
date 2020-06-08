@@ -1,0 +1,24 @@
+.contentWrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.funBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:80px;
+  width:45%;
+  margin:2%;
+  border-radius:5px;
+  color:#fff
+}
+.bg1 {
+  composes: funBlock;
+  background-image: linear-gradient(to right, #f7797d, #C6FFDD);
+}
+.bg2 {
+  composes: funBlock;
+  background-image: linear-gradient(#C6FFDD, #FBD786, #f7797d);
+}
